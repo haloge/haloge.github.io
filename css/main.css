@@ -194,6 +194,61 @@ section:after {content: ''; clear: both; display: block;}
   transition: 0.7s ease;
 }
 
+@media screen and (max-width: 920px) {
+	#mainCampaign .fourPanels li,
+	#mainCampaign .twoPanels li {width: 49%; max-width: 501px; height: auto;}
+	#mainCampaign .fourPanels li:nth-child(2n),
+	#mainCampaign .twoPanels li:nth-child(2n) {margin-right: 0;}
+
+  #main #product {background: #f7f7f7; padding: 20px 0 0;}
+  #main #product li {width: 23.5%; height: auto; border-bottom: 1px solid #eee;}
+  #main #product li:nth-child(6n) {margin-right: 2%;}
+  #main #product li:nth-child(4n) {margin-right: 0;}
+  #sale li {text-align: center;}
+  #sale img {float: none; margin-right: 0;}
+  #sale span.desc {display: block; width: 100%;}
+}
+
+@media screen and (max-width: 480px){
+	#mainCampaign .mainPanel img.pc {display: none;}
+	#mainCampaign .mainPanel img.mobile {display: block;}
+	#mainCampaign .fourPanels li,
+	#mainCampaign .threePanels li,
+	#mainCampaign .twoPanels li {width: 100%; height: auto; margin-right: 0; max-width: 100%;}
+  #main #product li {width: 32%; height: auto; margin-bottom: 5px;}
+  #main #product li:nth-child(4n) {margin-right: 2%;}
+  #main #product li:nth-child(3n) {margin-right: 0;}
+  #main #lab .title,
+  #main #houseVision .title {font-size: 16px;}
+  blockquote  {top: 60px;}
+	#main #event li:nth-child(2),
+	#main #event li:nth-child(3) {display: none;}
+	#mainCampaign .wrap,
+	#event .wrap,
+	#lab .wrap,
+	#houseVision .wrap,
+	.shopWrap {width: 100%;}
+	#mainCampaign ul li,
+	#lab ul li,
+	#houseVision ul li {margin: 3px 0 0 0;}
+	#sale li {padding: 0 10px;}
+	.more {padding-right: 25px;}
+	.more a:after {margin: -5px 0 0 0;}
+	#main #newItem span.thumb,
+	#main #topicItem span.thumb {padding: 10px;}
+	#lab .ideaPark .text {top: 80px;}
+
+  #map {width: 100%; height: 162px;}
+  #mapMask {height: 162px;}
+  #mapMask.getGeolocation {width: 100%;}
+  #shoplist ul.shops {max-height: 250px;}
+  #search_combobox {top: 0; left: 0; margin-bottom: 10px; padding-left: 5%;}
+  #shoplist {width: 90%; float: none; margin: 0 auto; display: none;}
+  #map.getGeolocation {width: 100%;}
+  #shoplist ul.shops li.entry {padding: 10px 0; width: 100%; font-size: 12px; float: none;}
+  #misc .youtube a img {height: 20px; margin-top: 0;}
+}
+
 .wrap {
 	width: 90%;
 	overflow: hidden;
@@ -270,3 +325,39 @@ footer ::after {
 	#mainCampaign .mainPanel img.mobile {display: block;}
   #mainCampaign .wrap {width:100%;}
 }
+
+#navBar .topicPath{
+  font-size:0.75em;
+  margin-top:15px;
+}
+
+#navBar .topicPath li{
+  padding-right:8px;
+}
+
+#navBar .topicPath li a{
+  padding-right:8px;  
+}
+
+#intro .textBox{
+  position:absolute;
+  top:81px;
+  left:36px;
+  color:#6b5555;
+  font-family:"ヒラギノ明朝 Pro W6","Hiragino Mincho Pro","Hiragino Mincho ProN","ＭＳ Ｐ明朝",serif;
+}
+
+#intro h1{
+  font-size:2.5em;
+}
+
+#intro p.englishHeading{
+  color:#efb7b1;
+  font-family: 'Times New Roman',serif;
+}
+
+#intro .textBox .slogan{
+  margin-top:1em;
+  font-size:1.1em;
+}
+
