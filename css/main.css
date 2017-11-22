@@ -194,6 +194,15 @@ section:after {content: ''; clear: both; display: block;}
   transition: 0.7s ease;
 }
 
+.twoPanels .otherRings{
+  border-box:outline;
+  border:1px solid #EFD3D0
+}
+
+.twoPanels .otherRings:hover;{
+  border:1px solid #6b5555
+}
+
 @media screen and (max-width: 920px) {
 	#mainCampaign .fourPanels li,
 	#mainCampaign .twoPanels li {width: 49%; max-width: 501px; height: auto;}
