@@ -174,7 +174,7 @@ section:after {content: ''; clear: both; display: block;}
 #main img {width: 100%;}
 #mainCampaign .mainPanel,
 #mainCampaign .mainPanel img {width: 100%; display: block; max-width: 1024px; height: auto; font-size: 21px; position: relative;}
-#mainCampaign .fourPanels li {width: 23.5%; max-width: 245px; height: auto;}
+#mainCampaign .fourPanels li {width: 23.5%; max-width: 245px; height: auto; display:inline;}
 #mainCampaign .threePanels li {width: 32%; max-width: 327px; height: auto;}
 #mainCampaign .twoPanels li {width: 49%; max-width: 501px; height: auto;}
 #mainCampaign ul li:last-child {margin-right: 0;}
